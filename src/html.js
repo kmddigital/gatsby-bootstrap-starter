@@ -24,7 +24,7 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script src="/js/vendor/jquery-3.3.1.min.js"></script>
+        <script src="/js/vendor/jquery-3.5.1.slim.min.js"></script>
         <script src="/js/vendor/bootstrap.bundle.min.js"></script>
       </body>
     </html>
